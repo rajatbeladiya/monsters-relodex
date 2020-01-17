@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import Card from '../card/Card';
 import './CardList.css';
@@ -13,9 +12,5 @@ const CardList = props => {
     </div>
   )
 }
-
-CardList.propTypes = {
-
-};
 
 export default CardList;
